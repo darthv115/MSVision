@@ -231,9 +231,16 @@ public class DescribeActivity extends ActionBarActivity {
                 mEditText.append("\n--- Raw Data ---\n\n");
                 mEditText.append(data);
                 mEditText.setSelection(0);
+
+
             }
 
             mButtonSelectImage.setEnabled(true);
         }
+    }
+
+    public void parsejson(View view) {
+        Intent intent = new Intent (this, ParseJson.class);
+        startActivity(intent);
     }
 }

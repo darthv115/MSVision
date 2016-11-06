@@ -63,7 +63,7 @@ public class MainActivity extends ActionBarActivity {
         return true;
     }
 
-    public void activityAnalyze(View v) {
+/*    public void activityAnalyze(View v) {
         Intent intent = new Intent(this, AnalyzeActivity.class);
         startActivity(intent);
     }
@@ -72,13 +72,13 @@ public class MainActivity extends ActionBarActivity {
         Intent intent = new Intent(this, AnalyzeInDomainActivity.class);
         startActivity(intent);
     }
-
+*/
     public void activityDescribe(View v) {
         Intent intent = new Intent(this, DescribeActivity.class);
         startActivity(intent);
     }
 
-    public void activityRecognize(View v) {
+/*    public void activityRecognize(View v) {
         Intent intent = new Intent(this, RecognizeActivity.class);
         startActivity(intent);
     }
@@ -87,7 +87,7 @@ public class MainActivity extends ActionBarActivity {
         Intent intent = new Intent(this, ThumbnailActivity.class);
         startActivity(intent);
     }
-
+*/
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
